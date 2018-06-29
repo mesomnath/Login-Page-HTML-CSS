@@ -1,0 +1,100 @@
+body{
+        background: #49a1ff;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQ5YTFmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgyJSIgc3RvcC1jb2xvcj0iIzEzN2ZmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+background: -moz-linear-gradient(top, #49a1ff 0%, #137ff3 82%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#49a1ff), color-stop(82%,#137ff3));
+background: -webkit-linear-gradient(top, #49a1ff 0%,#137ff3 82%);
+background: -o-linear-gradient(top, #49a1ff 0%,#137ff3 82%);
+background: -ms-linear-gradient(top, #49a1ff 0%,#137ff3 82%);
+background: linear-gradient(to bottom, #49a1ff 0%,#137ff3 82%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49a1ff', endColorstr='#137ff3',GradientType=0 );
+	padding:0;
+	font-family: sans-serif;
+}
+
+
+
+.login{
+	width: 480px;
+	height: 480px;
+	color:#fff;
+background: rgb(255,107,91);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmNmI1YiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmYjJmMmYiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(255,107,91,1) 0%, rgba(251,47,47,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,107,91,1)), color-stop(100%,rgba(251,47,47,1)));
+background: -webkit-linear-gradient(top, rgba(255,107,91,1) 0%,rgba(251,47,47,1) 100%);
+background: -o-linear-gradient(top, rgba(255,107,91,1) 0%,rgba(251,47,47,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,107,91,1) 0%,rgba(251,47,47,1) 100%);
+background: linear-gradient(to bottom, rgba(255,107,91,1) 0%,rgba(251,47,47,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff6b5b', endColorstr='#fb2f2f',GradientType=0 );
+	top:50%;
+	bottom:50%;
+	left:50%;
+	box-sizing: border-box;
+	position:absolute;
+	transform: translate(-50%,-50%);
+	padding: 70px 30px;
+	border-radius:20px;
+}
+.icon{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top:-50px;
+	left:40%;
+	background-color: black;
+	border-radius: 50px;
+}
+h1{
+	text-align: center;
+	font-size:24px;
+}
+.login p{
+	font-weight: bold;
+}
+.login input{
+	width: 100%;
+	margin-bottom:15px;
+}
+.login input[type="text"], input[type="password"]
+{
+	   background: rgb(242,249,254);
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YyZjlmZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNkNmYwZmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top, rgba(242,249,254,1) 0%, rgba(214,240,253,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(242,249,254,1)), color-stop(100%,rgba(214,240,253,1)));
+background: -webkit-linear-gradient(top, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%);
+background: -o-linear-gradient(top, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%);
+background: -ms-linear-gradient(top, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%);
+background: linear-gradient(to bottom, rgba(242,249,254,1) 0%,rgba(214,240,253,1) 100%);
+	border:none;
+	outline:none;
+	height: 40px;
+	border-radius: 9px;
+	padding: 5px;
+}
+.login input[type="submit"]
+{
+	outline:none;
+	background:#003399;
+	border:none;
+	border-radius:20px;
+	height: 40px;
+	font-size:30px;
+	font-weight:bold;
+	color:#fff;
+}
+.login input[type="submit"]:hover
+{
+	cursor: :pointer;
+	background:black;
+}
+.login a{
+	color:white;
+	font-size:14px;
+	line-height: 20px;
+}
+.login a:hover{
+	color:black;
+}
+.New{
+	background:yellow;
